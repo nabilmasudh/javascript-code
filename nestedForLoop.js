@@ -24,3 +24,11 @@
 //     }
 //     console.log(result)
 // }
+// let number = 10;
+// for(var i = 1; i <= number; i++){
+//     let result =''
+//     for(var j = 1; j <= number; j++){
+//         result +='# '
+//     }
+//     console.log(result)
+// }

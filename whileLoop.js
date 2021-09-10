@@ -10,7 +10,7 @@
 // while(numRunning){
 //     let randomNum = (Math.round(Math.random() * 5))
 //     if(randomNum == 5){
-//         console.log('Winner Winner And Game Over '+randomNum)
+//         console.log('This Random Number is Break Here And Game Over '+randomNum)
 //         numRunning = false
 //     }else{
 //         console.log('Random Number is '+randomNum)

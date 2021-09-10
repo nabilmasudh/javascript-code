@@ -19,3 +19,23 @@
 // console.log(Math.pow(2, 3))
 // console.log(Math.PI)
 // console.log(Math.E)
+
+// let factorial = 4
+// let sum = 1
+// for(let i = 1; i <= factorial; i++){
+//     sum = sum * i
+// }
+// console.log(sum)
+
+// var str ='Nabil Masudh Howlader'
+// var length = 0;
+// while(true){
+//     if(str.charAt(length) == ''){
+//         break;
+//     } else{
+//         length++
+//     }
+    
+// }
+// console.log(length)
+// console.log(str.length)
