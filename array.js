@@ -51,12 +51,18 @@
 
 // Array methods ==================================
 
-let isArray = [1, 2, 3, 3, 4, 5]
-let isArray2 = [1, 2, 3, 3, 4, 5]
+// let isArray = [1, 2, 3, 4, 5]
+// let isArray2 = [6, 7, 8, 9, 1]
 
-console.log(isArray.join('/ '))
-// console.log(isArray.fill(4))
+// // console.log(isArray.join('/ '))
+// // console.log(isArray.fill(4))
 
-let isArray3 = isArray.concat(isArray2)
-console.log(isArray3)
+// // let isArray3 = isArray.concat(isArray2)
+// // console.log(isArray3)
+
+// let array = Array.from(isArray)
+// array[2] = 30
+
+// console.log(isArray)
+// console.log(array)
 
