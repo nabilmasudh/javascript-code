@@ -66,3 +66,14 @@
 // console.log(isArray)
 // console.log(array)
 
+
+var a = ['Nabil', 'Masudh']
+
+var b = a;
+
+var a = []
+
+console.log(a)
+console.log(a)
+console.log(b)
+
