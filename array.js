@@ -67,13 +67,13 @@
 // console.log(array)
 
 
-var a = ['Nabil', 'Masudh']
+// var a = ['Nabil', 'Masudh']
 
-var b = a;
+// var b = a;
 
-var a = []
+// var a = []
 
-console.log(a)
-console.log(a)
-console.log(b)
+// console.log(a)
+// console.log(a)
+// console.log(b)
 
