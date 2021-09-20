@@ -25,7 +25,7 @@
 // function summation(props1, props2, props3, props4){
 //     return (props1 + props2 + props3 + props4)
 // }
-    
+
 
 // let result2 = multiple(5, 7)
 // console.log(result2)
