@@ -28,7 +28,7 @@ console.log(`My find function result is : ${myFind_result}`)
 
 function myFindIndex(array, Callback){
     for(var i = 0; i < array.length; i++){
-        if(Callback(i))
+        if(Callback(array[i]))
         return i
     }
 }
