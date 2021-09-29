@@ -48,11 +48,12 @@
 
 // Iterate Object Properties in javaScript=======
 
-// let isObject = {
-//     a: 10,
-//     b: 20,
-//     c: 30
-// }
+let isObject = {
+    a: 10,
+    b: 20,
+    c: 30
+}
+
 
 // console.log('a' in isObject)
 
@@ -60,6 +61,8 @@
 // for(let i in isObject){
 //     console.log(i + ': '+ isObject[i])
 // }
+
+
 
 
 // Object Methods in javaScript==========
@@ -82,3 +85,22 @@
 // console.log(isObject)
 // console.log(isObject2)
 
+// const care = {
+//     name: 'BMW',
+//     model:'80529',
+//     weight: '800kg',
+//     color:'Black',
+
+//     start: function(){
+//         console.log('car has started')
+//     },
+//     drive: function(){
+//         console.log('care is driving')
+//     }
+// }
+
+// for(let i of care){
+//     console.log(care[i])
+// }
+
+// let result = care.drive()

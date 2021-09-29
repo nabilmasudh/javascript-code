@@ -39,3 +39,39 @@
 // }
 // console.log(length)
 // console.log(str.length)
+
+// let number = 255;
+// console.log(number.toString(16));
+
+
+/*
+const number = [1, 2, 3, 4, 5]
+const cars = ["Orange", "Yellow", "Aqua", "light"];
+
+cars[cars.length] = "Pink";
+cars[cars.length] = "Black";
+
+
+console.log('Array Length : '+ cars.length)
+
+let result = []
+for(i = 0; i < cars.length; i++){
+    console.log(cars[i])
+    result.push(cars)
+}
+console.log(result.length)
+
+console.log(typeof cars)
+console.log(typeof number)
+*/
+
+const numbers = [10, 20, 30, 40, 50];
+
+function myFunction(total, value, index, array){
+    console.log(total)
+    return total + value
+}
+
+const newNumbers = numbers.reduce(myFunction)
+
+console.log(newNumbers)

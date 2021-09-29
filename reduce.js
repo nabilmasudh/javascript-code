@@ -10,12 +10,15 @@ var isArr = [2, 1, 3, 4, 5, 6, 7, 3]
 // });
 // console.log(reduceResult2);
 
+
+
 function myReduce(isArr, Callback, previusValue){
     for(var i = 0; i < isArr.length; i++){
         previusValue = Callback(previusValue, isArr[i])
     }
     return previusValue;
 }
+
 var sum_result = myReduce(isArr, function( previusValue, currentValue){
     return previusValue + currentValue;
 },50)
