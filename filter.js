@@ -34,4 +34,13 @@ function myFilter(isArr, callbackFunction){
 var result2 = myFilter(isArr, function(value, index, array){
     return value
 })
-console.log(result2)
+// console.log(result2)
+
+
+let number = [10, 20, 30, 40, 50, 60, 70, 80, 90];
+
+let result = number.filter((currentValue, index, array)=>{
+    return currentValue > 50
+})
+
+console.log(result)

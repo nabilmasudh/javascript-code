@@ -25,48 +25,59 @@
 
 //explicit binding====================
 
-let printName2 = function(){
-    console.log(`${this.name} ${this.age}`)
-}
 
-let object = {
-    name: 'Nabil',
-    age: 24,
-}
+// let printName2 = function(){
+//     console.log(`${this.name} ${this.age}`)
+// }
+
+// let object = {
+//     name: 'Nabil',
+//     age: 24,
+// }
+
+// printName2.call(object)
 
 
+// let printName3 = function () {
+//   console.log(`${this.name} ${this.age}`);
+// };
 
-printName2.call(object)
+// let object = {
+//   name: "Nabil",
+//   age: 24,
+// };
+
+// let storeResult = printName2.bind(object);
+
+// storeResult()
+
+//new binding===========================
 
 
-let printName3 = function () {
-  console.log(`${this.name} ${this.age}`);
-};
+// function Person5(name, age){
+//     console.log(this)
+//     this.name = name;
+//     this.age = age;
+//     console.log(`${this.name} is ${this.age} years old`)
+// }
 
-let object = {
-  name: "Nabil",
-  age: 24,
-};
-
-let storeResult = printName2.bind(object);
-
-storeResult()
+// let result5 = new Person5('Nabil', 24);
 
 
 
 //window binding=========================
 
 
-let printName4 = function () {
-    console.log(this)
-    console.log(window === this);
-  console.log(`${this.name} ${this.age}`); //undefined
-};
+// let printName4 = function () {
+//     console.log(this)
+//     console.log(window === this);
+//   console.log(`${this.name} ${this.age}`); //undefined
+// };
 
-let object = {
-  name: "Nabil",
-  age: 24,
-};
+// let object = {
+//   name: "Nabil",
+//   age: 24,
+// };
 
-printName4();
+// printName4();
 

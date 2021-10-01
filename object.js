@@ -48,11 +48,11 @@
 
 // Iterate Object Properties in javaScript=======
 
-let isObject = {
-    a: 10,
-    b: 20,
-    c: 30
-}
+// let isObject = {
+//     a: 10,
+//     b: 20,
+//     c: 30
+// }
 
 
 // console.log('a' in isObject)
@@ -67,15 +67,15 @@ let isObject = {
 
 // Object Methods in javaScript==========
 
-// let isObject = {
-//     a: 10,
-//     b: 20,
-//     c: 30
-// }
+let isObject = {
+    a: 10,
+    b: 20,
+    c: 30
+}
 
 // // console.log(Object.keys(isObject))
 // // console.log(Object.values(isObject))
-// // console.log(Object.entries(isObject))
+console.log(Object.entries(isObject))
 
 // let isObject2 = Object.assign({}, isObject)
 
